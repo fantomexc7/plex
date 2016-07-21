@@ -1,0 +1,4 @@
+qsrmovs1  -fstype=cifs,rw,noperm,user=<quasar.username>,pass=<quasar.password>  ://quasar/media1
+qsrmovs2  -fstype=cifs,rw,noperm,user=<quasar.username>,pass=<quasar.password>  ://quasar/media2
+xcmovies  -fstype=cifs,rw,noperm,user=<windows.username>,pass=<windows.password>  ://X-CORP/Movies
+xctv      -fstype=cifs,rw,noperm,user=<windows.username>,pass=<windows.password>  ://X-CORP/TV
