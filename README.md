@@ -15,7 +15,7 @@ Then run the docker command below with all the relevant directories and we're of
 4. mkdir /opt/plexlibrary
 5. `sudo vi /etc/auto.master`      # add the following line
      - `/automounts      /etc/auto.automounts     --timeout=1800  --ghost`
-6. add `auto.automounts` file to `/etc/`
+6. add `auto.automounts` file (in this repo) to `/etc/`
 7. enable and start autofs
      - `systemctl enable autofs`
      - `systemctl start autofs`
